@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  overflow-x: hidden;
+
+  font-family: "Mansalva", cursive;
+  font-family: "Vibes", cursive;
+  font-family: "Indie Flower", cursive;
+  font-family: "Amatic SC", cursive;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Fredoka One", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Handlee", cursive;
+  font-family: "Neucha", cursive;
+}
+
+.navbar {
+  height: 15%;
+  background-color: #120200;
+  font-family: "Indie Flower", cursive;
+}
+
+.nav > a {
+  color: #eeeeee;
+}
+
+.landscape {
+  height: 85%;
+  background-image: url("../assets/image/Paisajes/BosqueRojo.png");
+  background-size: cover
+}
+
+.summary {
+  background: #1010107a;
+}
+
+.description {
+  background-color: #b4ccc1de;
+  font-family: "Neucha", cursive;
+}
+
+.card.description.mt-5 {
+  border: solid 0px;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.teamwork{
+  background-color: #141414;
+}
+
+.team {
+  border-radius: 1rem;
+  background-color: #dbdbdb;
+}
