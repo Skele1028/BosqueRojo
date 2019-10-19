@@ -35,8 +35,13 @@ body {
 
 .landscape {
   height: 85%;
+<<<<<<< HEAD
   background-image: url("../assets/image/Paisajes/BosqueRojo.png");
   background-size: cover;
+=======
+  background-image: url("../assets/image/Paisajes/BosqueRojoT.png");
+  background-size: cover
+>>>>>>> afde47b0ff503d6743a5170a10b309f4b1cb2a16
 }
 
 .summary {
