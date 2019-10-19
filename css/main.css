@@ -23,14 +23,20 @@ body {
   font-family: "Indie Flower", cursive;
 }
 
-.nav > a {
+.link-white {
   color: #eeeeee;
+  text-decoration: none;
+}
+
+.link-white:hover{
+  text-decoration: none;
+  color: #b8b8b8;
 }
 
 .landscape {
   height: 85%;
   background-image: url("../assets/image/Paisajes/BosqueRojo.png");
-  background-size: cover
+  background-size: cover;
 }
 
 .summary {
@@ -42,16 +48,27 @@ body {
   font-family: "Neucha", cursive;
 }
 
-.card.description.mt-5 {
-  border: solid 0px;
-  border-radius: 0rem 1rem 1rem 0rem;
-}
-
-.teamwork{
+.teamwork {
   background-color: #141414;
+  color: #dbdbdb;
 }
 
 .team {
-  border-radius: 1rem;
-  background-color: #dbdbdb;
+  min-width: 10rem;
+  max-width: 15rem;
+  color: #141414;
+  background-color: #f3f3f3;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.team-img {
+  object-fit: contain;
+  height: 13rem;
+}
+
+.bg-galery {
+  background-color: #f3f3f3;
 }
